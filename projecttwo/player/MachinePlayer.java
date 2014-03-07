@@ -1,7 +1,7 @@
 /* MachinePlayer.java */
 
 package player;
-
+//practice commiting 
 /**
  *  An implementation of an automatic Network player.  Keeps track of moves
  *  made by both players.  Can select a move for itself.
@@ -11,6 +11,7 @@ public class MachinePlayer extends Player {
   // Creates a machine player with the given color.  Color is either 0 (black)
   // or 1 (white).  (White has the first move.)
   public MachinePlayer(int color) {
+
   }
 
   // Creates a machine player with the given color and search depth.  Color is
@@ -39,6 +40,9 @@ public class MachinePlayer extends Player {
   // player to solve.
   public boolean forceMove(Move m) {
     return false;
+
+
+    
   }
 
 }
